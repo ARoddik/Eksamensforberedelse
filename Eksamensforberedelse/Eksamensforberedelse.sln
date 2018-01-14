@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressure", "TirePressure\TirePressure.csproj", "{467A963A-6AD4-44C9-9306-A11AAC56200E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverTheHillsAndFarAway", "..\OverTheHillsAndFarAway\OverTheHillsAndFarAway.csproj", "{D09F516F-2E2B-406E-8E02-0A0352B7692F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{467A963A-6AD4-44C9-9306-A11AAC56200E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467A963A-6AD4-44C9-9306-A11AAC56200E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467A963A-6AD4-44C9-9306-A11AAC56200E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467A963A-6AD4-44C9-9306-A11AAC56200E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F464AB-39AF-40A5-9175-2CA4BC1AC5D1}
+	EndGlobalSection
+EndGlobal
