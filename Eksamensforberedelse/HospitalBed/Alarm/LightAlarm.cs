@@ -5,25 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using HospitalBed.Observer;
 
-namespace HospitalBed.Log
+namespace HospitalBed.Alarm
 {
-    class ConsoleLog : ILog
+    public class LightAlarm : IAlarm
     {
-        public void LogStuff(bool presence)
+        public void StartAlarm(bool presence)
         {
             if (presence)
             {
-                Console.WriteLine(DateTime.Now.ToShortTimeString() + " Patient is in bed");
+                Console.WriteLine("Patient is in bed");
             }
             else
             {
-                Console.WriteLine(DateTime.Now.ToShortTimeString() + " Patient has left the bed");
+                Console.WriteLine("Lights on! Patient has left the bed!");
             }
         }
 
         public void Update(bool presence)
         {
-            LogStuff(presence);
+            StartAlarm(presence);
         }
 
         public void AttachTo(ISubject subject)
@@ -33,7 +33,7 @@ namespace HospitalBed.Log
 
         public void DetachFrom(ISubject subject)
         {
-            subject.Attach(this);
+            subject.Detach(this);
         }
     }
 }

@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HospitalBed.Observer;
 
-namespace HospitalBed
+namespace HospitalBed.Configuration
 {
-    public interface ILog : IPresenceObserver
+    public interface IConfiguration
     {
-        void LogStuff(bool presence);
+        ConfigurationValues Deserialize();
     }
 }

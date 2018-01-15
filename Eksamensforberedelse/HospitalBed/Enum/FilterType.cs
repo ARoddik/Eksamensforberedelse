@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HospitalBed.Observer;
 
-namespace HospitalBed
+namespace HospitalBed.Enum
 {
-    public interface ILog : IPresenceObserver
+    public enum FilterType
     {
-        void LogStuff(bool presence);
+        Sliding = 0,
+        Raw = 1
     }
 }

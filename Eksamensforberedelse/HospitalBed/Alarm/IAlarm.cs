@@ -7,8 +7,8 @@ using HospitalBed.Observer;
 
 namespace HospitalBed
 {
-    public interface ILog : IPresenceObserver
+    public interface IAlarm : IPresenceObserver
     {
-        void LogStuff(bool presence);
+        void StartAlarm(bool presence);
     }
 }

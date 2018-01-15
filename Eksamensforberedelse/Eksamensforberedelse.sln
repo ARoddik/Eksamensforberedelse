@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverTheHillsAndFarAway", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressureMonitor", "PressureMonitor\PressureMonitor.csproj", "{752FC09D-8A3F-49EC-8017-50FA00A469DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalBed", "HospitalBed\HospitalBed.csproj", "{1C1A85ED-94BE-4783-AE58-A822F9893B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalBed.Application", "HospitalBed.Application\HospitalBed.Application.csproj", "{78F07FAE-B56E-4083-832A-661DCFD6DA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1A85ED-94BE-4783-AE58-A822F9893B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1A85ED-94BE-4783-AE58-A822F9893B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1A85ED-94BE-4783-AE58-A822F9893B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1A85ED-94BE-4783-AE58-A822F9893B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F07FAE-B56E-4083-832A-661DCFD6DA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F07FAE-B56E-4083-832A-661DCFD6DA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F07FAE-B56E-4083-832A-661DCFD6DA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F07FAE-B56E-4083-832A-661DCFD6DA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HospitalBed.Observer;
 
-namespace HospitalBed
+namespace HospitalBed.Enum
 {
-    public interface ILog : IPresenceObserver
+    public enum AlarmType
     {
-        void LogStuff(bool presence);
+        Buzzer = 0,
+        Light = 1
     }
 }

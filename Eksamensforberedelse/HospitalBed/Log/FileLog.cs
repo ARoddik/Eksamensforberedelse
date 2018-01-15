@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HospitalBed.Observer;
 
 namespace HospitalBed.Log
 {
@@ -28,6 +29,21 @@ namespace HospitalBed.Log
                     writeText.WriteLine("Patient has left the bed " + DateTime.Now.ToShortTimeString());
                 }
             }
+        }
+
+        public void Update(bool presence)
+        {
+            LogStuff(presence);
+        }
+
+        public void AttachTo(ISubject subject)
+        {
+            subject.Attach(this);
+        }
+
+        public void DetachFrom(ISubject subject)
+        {
+            subject.Detach(this);
         }
     }
 }
