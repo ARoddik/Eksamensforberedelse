@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressure", "TirePressur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverTheHillsAndFarAway", "..\OverTheHillsAndFarAway\OverTheHillsAndFarAway.csproj", "{D09F516F-2E2B-406E-8E02-0A0352B7692F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressureMonitor", "PressureMonitor\PressureMonitor.csproj", "{752FC09D-8A3F-49EC-8017-50FA00A469DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D09F516F-2E2B-406E-8E02-0A0352B7692F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752FC09D-8A3F-49EC-8017-50FA00A469DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
